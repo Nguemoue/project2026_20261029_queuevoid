@@ -1,0 +1,13 @@
+{
+    "name": "nguemoue/queuevoid",
+    "description": "Find request(), auth() and session() inside queued jobs, where the worker has none of them.",
+    "type": "library",
+    "license": "MIT",
+    "bin": ["queuevoid.php"],
+    "require": {
+        "php": ">=8.1"
+    },
+    "scripts": {
+        "test": "php queuevoid.php --self-test"
+    }
+}
